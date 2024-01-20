@@ -39,7 +39,7 @@ var $plugins =
 {"name":"MessageUnlockBusy","status":false,"description":"メッセージの入力待ち解除プラグイン","parameters":{"escapeCode":""}},
 {"name":"MNKR_EnemyIconMZ","status":false,"description":"戦闘画面で敵キャラの名前の前にアイコンを表示します。","parameters":{"defaultIcon":"0"}},
 {"name":"NRP_StopSelfMovement","status":false,"description":"v1.00 イベント実行中の自律移動を停止します。","parameters":{"StopSwitch":"","StopParallelMessage":"true"}},
-{"name":"SPD_EscapeRatioFix","status":false,"description":"逃走成功率設定 &amp; 逃走成功率表示プラグイン","parameters":{"escRatio":"1","escCommandName":"逃げる","escRatioAdd":"0.1","escRatioBracket":"0","escRatioID":"0","escNoDisplayID":"0"}},
+{"name":"SPD_EscapeRatioFix","status":true,"description":"逃走成功率設定 &amp; 逃走成功率表示プラグイン","parameters":{"escRatio":"1","escCommandName":"逃げる","escRatioAdd":"0.1","escRatioBracket":"0","escRatioID":"0","escNoDisplayID":"0"}},
 {"name":"EnemyPicture","status":false,"description":"敵キャラのピクチャ表示プラグイン","parameters":{}},
 {"name":"InitialState","status":false,"description":"初期ステートプラグイン","parameters":{"stateList":"[]","applyTransform":"false"}},
 {"name":"StateUpdate","status":false,"description":"更新可能ステート v1.1.1","parameters":{}},
