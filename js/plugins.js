@@ -64,5 +64,5 @@ var $plugins =
 {"name":"TMNewGameEx","status":false,"description":"タイトルコマンドに別マップからゲームを始めるコマンドを追加します。","parameters":{"titleCommands":"newGame continue options ex1","command1":"シーン回想","params1":"46 3 7 6","command2":"","params2":"","command3":"","params3":"","command4":"","params4":"","command5":"","params5":"","numVisibleRows":"0"}},
 {"name":"MNKR_TitleCommandRows","status":false,"description":"タイトルメニューのウィンドウ行数を指定します。","parameters":{"Command Rows":"4"}},
 {"name":"UTA_CommonSaveMZ","status":false,"description":"セーブデータ間で共有のセーブデータを作成し、\n指定したスイッチ・変数の状態をセーブデータ間で共有します。","parameters":{"targetSwitches":"[]","targetVariables":"[\"4\"]","applyOnLoad":"true","applyOnSave":"true","applyOnNewGame":"true","applyOnAutoSave":"false","applyOnGameover":"true","saveFileName":"Save_Kaisou"}},
-{"name":"PictureCallCommon","status":false,"description":"ピクチャのボタン化プラグイン","parameters":{"PictureIdVariable":"0","InvalidSwitchId":"0","FlickDistance":"60","FlickTimeVariable":"0","FlickDegreeVariable":"0"}}
+{"name":"PictureCallCommon","status":true,"description":"ピクチャのボタン化プラグイン","parameters":{"PictureIdVariable":"0","InvalidSwitchId":"0","FlickDistance":"60","FlickTimeVariable":"0","FlickDegreeVariable":"0"}}
 ];
